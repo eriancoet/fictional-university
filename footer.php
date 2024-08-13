@@ -60,6 +60,7 @@
       </div>
     </footer>
 
+    <div class="search-overlay"></div>
 
 <?php wp_footer(); ?>
 </body>
