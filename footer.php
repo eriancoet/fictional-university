@@ -12,24 +12,24 @@
             <div class="site-footer__col-two">
               <h3 class="headline headline--small">Explore</h3>
               <nav class="nav-list">
-                <?php 
-                wp_nav_menu(array(
-                  'theme_location' => 'footerLocationOne'
-                ));
-                ?>
-                
+                <?php
+wp_nav_menu(array(
+    'theme_location' => 'footerLocationOne',
+));
+?>
+
               </nav>
             </div>
 
             <div class="site-footer__col-three">
               <h3 class="headline headline--small">Learn</h3>
               <nav class="nav-list">
-              <?php 
-                wp_nav_menu(array(
-                  'theme_location' => 'footerLocationTwo'
-                ));
-                ?>
-               
+              <?php
+wp_nav_menu(array(
+    'theme_location' => 'footerLocationTwo',
+));
+?>
+
               </nav>
             </div>
           </div>
@@ -60,8 +60,6 @@
       </div>
     </footer>
 
-    <div class="search-overlay"></div>
-
-<?php wp_footer(); ?>
+<?php wp_footer();?>
 </body>
 </html>
